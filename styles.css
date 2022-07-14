@@ -9,11 +9,12 @@ body {
 .hero,
 .footer,
 .header {
-    background-color: #1f2939;
+    background-color: #1f2937;
 }
 
 h1 {
     font-size: 48px;
+    font-weight: 1000;
     color: #f9faf8;
     margin-bottom: 0px;
     padding: 0px;
@@ -30,7 +31,7 @@ h1 {
 #header-logo {
     color: #f9faf8;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 1000;
 }
 
 #hero-button {
@@ -59,7 +60,7 @@ h1 {
 
 #quote {
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: light;
     font-style: italic;
     color: #1f2937;
 }
@@ -84,7 +85,9 @@ img {
 }
 
 .header {
-    width: 1000px;
+    width: 1244px;
+    margin-bottom: 100px;
+    margin-top: 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -95,13 +98,15 @@ img {
 }
 
 .hero {
-    width: 1000px;
+    width: 1244px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 #information {
     text-align: center;
+    font-weight: 1000;
 }
 
 .center-white {
@@ -111,20 +116,99 @@ img {
 }
 
 .galery {
-    width: 1000px;
+    width: 900px;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    gap: 50px;
+    color: rgba(0, 0, 0, 0.705);
+    margin: 35px;
 }
 
 #sub-one {
-    width: 50px;
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
 
 #round-inside-one {
-    border-radius: 10px;
-    border: 2px solid #3882f6;
+    border-radius: 15px;
+    border: 5px solid #3882f6;
     padding: 20px;
-    width: 50px;
-    height: 50px;
+    width: 125px;
+    height: 125px;
+}
+
+.content {
+    margin: 35px;
+}
+
+.center-grey {
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.quote {
+    width: 820px;
+}
+
+#author {
+    font-weight: 900;
+    text-align: end;
+    padding-right: 25px;
+    font-size: 24px;
+}
+
+.call-center {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.call-to-action {
+    border-radius: 5px;
+    background-color: #3882f6;
+    width: 1000px;
+    margin: 35px;
+    display: flex;
+    color: #f9faf8;
+    justify-content: space-between;
+    align-content: center;
+    padding: 50px;
+}
+
+#sign-up {
+    border: 2px solid #e5e7eb;
+    font-size: large;
+    font-weight: bold;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 8px;
+    min-height: 30px;
+    min-width: 100px;
+    cursor: pointer;
+    height: 40px;
+    margin: 0px;
+    margin-top: 6px;
+}
+
+h3 {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.content-box-align {
+    justify-content: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2939;
+    padding: 50px;
 }
